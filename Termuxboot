@@ -1,14 +1,6 @@
 # termux boot
-# 1st write--------mkdir termuxboot(any name)
-# Write the text---nano termuxboot
-# put the text #!/data/data/com.termux/files/usr/bin/sh
-termux-wake-lock
-sshd
-# press ctrl+x 
-# Modify Y or n 
-# press Y
-# Write folder name
-# Press ctrl+x
+cd /data/data/com.termux/files/usr/etc && nano profile
+# Or pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
 # Ubuntu auto Start
 cd ../etc
 nano bash.bashrc
