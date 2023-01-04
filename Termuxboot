@@ -9,4 +9,6 @@ sshd
 # press Y
 # Write folder name
 # Press ctrl+x
-#
+# Ubuntu auto Start
+cd ../etc
+nano bash.bashrc
